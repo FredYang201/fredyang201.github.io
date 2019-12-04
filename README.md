@@ -21,12 +21,17 @@
     <header>
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
         <div class='container'>
-          <a class="navbar-brand" href="#" style="font-size: 40px; margin-left: 20px">Jinpeng Yang</a>
+<!--           <a class="navbar-brand" href="#" style="font-size: 40px; margin-left: 20px">Jinpeng Yang</a>
+ -->          <nav aria-label="breadcrumb"  style="margin-top:16px; margin-left:18px;">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
             <ul class="navbar-nav navbar-right" style="height: 80px;">
             <li class="nav-item active">
               <a class="nav-link" href="document/file/Resume.pdf">
                 <figure class="figure text-center">
-                  <img class="figure-img img-rounded w-50" src="document/image/resume.svg" alt=""><figcaption class='figure-caption'><span>Resume</span></figcaption>
+                  <img class="figure-img img-rounded w-50" src="document/image/resume.svg" alt=""><figcaption class='figure-caption'><span style="color:#fff;">Resume</span></figcaption>
                 </figure>
               </a>
             </li>
@@ -34,7 +39,7 @@
               <a class="nav-link" href="https://www.linkedin.com/in/jinpengyang/">
                 <figure class="figure text-center">
                   <img class="figure-img img-responsive img-rounded w-50" src="document/image/linkedin.svg" alt="">
-                  <figcaption class='figure-caption'><span>LinkedIn</span></figcaption>
+                  <figcaption class='figure-caption'><span style="color:#fff;">LinkedIn</span></figcaption>
                 </figure>
               </a>
             </li>
@@ -42,7 +47,7 @@
               <a class="nav-link" href="https://github.com/FredYang201?tab=repositories">
                 <figure class="figure text-center">
                   <img class="figure-img img-responsive img-rounded w-50" src="document/image/github.svg" alt="">
-                  <figcaption class='figure-caption'><span>Github</span></figcaption>
+                  <figcaption class='figure-caption'><span style="color:#fff;">Github</span></figcaption>
                 </figure>
               </a>
             </li>
@@ -66,22 +71,30 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img src="document/image/web.svg" alt="">
-          <h2>Web Design</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <img src="document/image/API.svg" alt="">
+          <h2 style="padding-top:15px;">Web Development</h2>
+          <p class='text-justify'>Web development includes designs of websites and Restful APIs. The programming language for backend is Python and framework is Django. Database includes SQLite, and MySQL. HTML, CSS, Javasript are used for the design of frontend pages. jQuery.js, Vue.js and Bootstrap are basic frontend frameworks. Heroku and Git are the tools for deploying to live.</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="document/file/web/websites.html" role="button">&nbsp;&nbsp;&nbsp;Websites &nbsp;&raquo;&nbsp;&nbsp;</a>
+            <a class="btn btn-primary btn-lg" href="document/file/web/APIs.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;APIs &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="document/image/data.svg" alt="" width="140px" height="140px" style="">
-          <h2>Data Analysis</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <h2 style="padding-top:5px;">Data Analysis</h2>
+          <p class='text-justify'>Data Analysis consists of Python, R, SQL and A/B test. Python packages include Numpy, Pandas, Matplotlib, Seaborn, statsmodel and scikit-learn. R packages include ggplot2, dpyr and so on. SQL consists of table-creating, queries, joins. A/B test include simple random sample, statistical testing and p-value calculation.</p>
+          <p><a class="btn btn-primary btn-lg" href="document/file/data/python.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;Python &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a class="btn btn-primary btn-lg" href="document/file/data/R.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </p><p>
+            <a class="btn btn-primary btn-lg" href="document/file/data/SQL.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SQL &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a class="btn btn-primary btn-lg" href="document/file/data/AB.html" role="button">&nbsp;&nbsp;A/B Test &nbsp;&raquo;&nbsp;&nbsp;</a>
+          </p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="document/image/ml.svg" alt="" >
-          <h2>Machine Learning</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <h2 style="padding-top:2px;">Machine Learning</h2>
+          <p class='text-justify'>In machine learning, the first part are the algorithms and code of widely-used supervised and unsupervised models, such as linear regression, logistic regression and support vector machine. The second part are machine learning projects. R and python are the main programming language, scikit-learn and tensorflow are main packages for projects.</p>
+          <p><a class="btn btn-primary btn-lg" href="document/file/machinelearning/models.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a class="btn btn-primary btn-lg" href="document/file/machinelearning/projects.html" role="button">&nbsp;&nbsp;Projects &nbsp;&raquo;&nbsp;&nbsp;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -94,7 +107,7 @@
   <!-- FOOTER -->
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; <a href="#">Jinpeng Yang</a> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
   </main>  
 
