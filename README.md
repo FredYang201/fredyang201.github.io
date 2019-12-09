@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Jinpeng Yang</title>
     
-    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../css/custom.css" rel="stylesheet">
-    <link href="../../../css/carousel.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
 
     <style type="text/css">
       h2{
@@ -17,91 +17,103 @@
     </style>
   </head>
       
-<body>
-  <header>
+  <body>
+    <header>
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
         <div class='container'>
-<!--           <a class="navbar-brand" href="index.html" style="font-size: 40px; margin-left: 20px">Jinpeng Yang</a>
- -->       <nav aria-label="breadcrumb" style="margin-top:16px; margin-left:18px;">
+<!--           <a class="navbar-brand" href="#" style="font-size: 40px; margin-left: 20px">Jinpeng Yang</a>
+ -->          <nav aria-label="breadcrumb"  style="margin-top:16px; margin-left:18px;">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">APIs</li>
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
           </nav>
             <ul class="navbar-nav navbar-right" style="height: 80px;">
             <li class="nav-item active">
-              <a class="nav-link" href="../Resume.pdf">
+              <a class="nav-link" href="document/file/Resume.pdf">
                 <figure class="figure text-center">
-                  <img class="figure-img img-rounded w-50" src="../../image/resume.svg" alt=""><figcaption class='figure-caption'><span style="color:#fff;">Resume</span></figcaption>
+                  <img class="figure-img img-rounded w-50" src="document/image/resume.svg" alt=""><figcaption class='figure-caption'><span style="color:#fff;">Resume</span></figcaption>
                 </figure>
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="https://www.linkedin.com/in/jinpengyang/">
                 <figure class="figure text-center">
-                  <img class="figure-img img-responsive img-rounded w-50" src="../../image/linkedin.svg" alt="">
-                  <figcaption class='figure-caption' style="color:#fff;"><span>LinkedIn</span></figcaption>
+                  <img class="figure-img img-responsive img-rounded w-50" src="document/image/linkedin.svg" alt="">
+                  <figcaption class='figure-caption'><span style="color:#fff;">LinkedIn</span></figcaption>
                 </figure>
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="https://github.com/FredYang201?tab=repositories">
                 <figure class="figure text-center">
-                  <img class="figure-img img-responsive img-rounded w-50" src="../../image/github.svg" alt="">
-                  <figcaption class='figure-caption' style="color:#fff;"><span>Github</span></figcaption>
+                  <img class="figure-img img-responsive img-rounded w-50" src="document/image/github.svg" alt="">
+                  <figcaption class='figure-caption'><span style="color:#fff;">Github</span></figcaption>
                 </figure>
               </a>
             </li>
           </ul>
         </div>
       </nav>
-  </header>
+    </header>
 
-<main role="main">
+  <main role="main">
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     </div>
 
-  <div class="container" style="padding-top: 40px; padding-left: 30px">
-      <!-- Example row of columns -->
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" style="padding-top: 40px;">
+
+      <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-md-5">
-          <h2>Snippets</h2>
-          <p>The snippets api has: <span style="color:red;">id</span>, <span style="color:red;">title</span>, <span style="color:red;">code</span>, <span style="color:red;">language</span> and <span style="color:red;">style</span> items in each record. It also supports <span style="color:red;">.json</span> or <span style="color:red;">.api</span> format as its suffix_patterns. The permission here has IsAuthenticatedOrReadOnly, which means only admin can edit online. The feasible queries contain <a href="http://fredsnippet.herokuapp.com/snippets/">/snippets/</a>, <a href="http://fredsnippet.herokuapp.com/snippets/.json">/sinppets/.json</a>, <a href="http://fredsnippet.herokuapp.com/snippets/?page=3">/snippets/?page=3</a>, <a href="http://fredsnippet.herokuapp.com/snippets/38/">/snippets/id/</a> and so on.</p>
-          <p><a class="btn btn-primary" href="http://fredsnippet.herokuapp.com/snippets/" role="button">Enter in &nbsp;&raquo;</a></p>
-        </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-5">
-          <h2>Imdb movies</h2>
-          <p>This api provides access to the top 250 movies in IMDB. Each record consists of <span style="color:red;">id</span>, <span style="color:red;">movieId</span>, <span style="color:red;">movie name</span>, <span style="color:red;">release year</span>, <span style="color:red;">rate</span>, and <span style="color:red;">link</span> to the page of movies. It also supports <span style="color:red;">.json</span> or <span style="color:red;">.api</span> format as its suffix_patterns. The feasible queries contain <a href="http://fredimdb.herokuapp.com/movies/">/movies/</a>, <a href="http://fredimdb.herokuapp.com/movies/.json">/moives/.json</a>, <a href="http://fredimdb.herokuapp.com/movies/?page=3">/movies/?page=3</a>, <a href="http://fredimdb.herokuapp.com/movies/detail/17925/">/movies/detail/movieId/</a> and so on.</p>
-          <p><a class="btn btn-primary" href="https://fredimdb.herokuapp.com/movies/" role="button">Enter in &nbsp;&raquo;</a></p>
-       </div>
-    </div>
-  <div class="row"><br><br></div>
-  <div class="row">
-          <div class="col-md-5">
-            <h2>NBA players</h2>
-            <p>The nba players api has: <span style="color:red;">id</span>, <span style="color:red;">playerName</span>, <span style="color:red;">playerNumber</span>, <span style="color:red;">team</span>, <span style="color:red;">height</span>, <span style="color:red;">weight</span>, <span style="color:red;">birthday</span>, <span style="color:red;">age</span>, <span style="color:red;">years in nba</span>, <span style="color:red;">basketball position</span>, <span style="color:red;">link</span> items in each record. It supports <span style="color:red;">.json</span> or <span style="color:red;">.api</span> format as its suffix_patterns. The feasible queries contain <a href="http://frednba.herokuapp.com/nba/">/nba/</a>, <a href="http://frednba.herokuapp.com/nba/.json">/nba/.json</a>, <a href="http://frednba.herokuapp.com/nba/?page=3">/nba/?page=3</a>, <a href="http://frednba.herokuapp.com/nba/age/24/">/nba/age/24/</a>, <a href="http://frednba.herokuapp.com/nba/year_in_nba/3/">/nba/year_in_nba/3/</a>, <a href="http://frednba.herokuapp.com/nba/position/Guard/">/nba/position/Guard/</a>, <a href="http://frednba.herokuapp.com/nba/team/Utah%20Jazz/">/nba/team/Utah Jazz/</a> and so on.</p>
-            <p><a class="btn btn-primary" href="http://frednba.herokuapp.com/nba/" role="button">Enter in &nbsp;&raquo;</a></p>
-          </div>
-          <div class="col-md-2"></div>
-      </div>
+        <div class="col-lg-4">
+          <img src="document/image/API.svg" alt="">
+          <h2 style="padding-top:15px;">Web Development</h2>
+          <p class='text-justify'>Web development includes designs of websites and Restful APIs. The programming language for backend is Python and framework is Django. Database includes SQLite, and MySQL. HTML, CSS, Javasript are used for the design of frontend pages. jQuery.js, Vue.js and Bootstrap are basic frontend frameworks. Heroku and Git are the tools for deploying to live.</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="document/file/web/websites.html" role="button">&nbsp;&nbsp;&nbsp;Websites &nbsp;&raquo;&nbsp;&nbsp;</a>
+            <a class="btn btn-primary btn-lg" href="document/file/web/APIs.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;APIs &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="document/image/data.svg" alt="" width="140px" height="140px" style="">
+          <h2 style="padding-top:5px;">Data Analysis</h2>
+          <p class='text-justify'>Data Analysis consists of Python, R, SQL and A/B test. Python packages include Numpy, Pandas, Matplotlib, Seaborn, statsmodel and scikit-learn. R packages include ggplot2, dpyr and so on. SQL consists of table-creating, queries, joins. A/B test include simple random sample, statistical testing and p-value calculation.</p>
+          <p><a class="btn btn-primary btn-lg" href="document/file/data/python.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;Python &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a class="btn btn-primary btn-lg" href="document/file/data/R.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </p><p>
+            <a class="btn btn-primary btn-lg" href="document/file/data/SQL.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SQL &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a class="btn btn-primary btn-lg" href="document/file/data/AB.html" role="button">&nbsp;&nbsp;A/B Test &nbsp;&raquo;&nbsp;&nbsp;</a>
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="document/image/ml.svg" alt="" >
+          <h2 style="padding-top:2px;">Machine Learning</h2>
+          <p class='text-justify'>In machine learning, the first part are the algorithms and code of widely-used supervised and unsupervised models, such as linear regression, logistic regression and support vector machine. The second part are machine learning projects. R and python are the main programming language, scikit-learn and tensorflow are main packages for projects.</p>
+          <p><a class="btn btn-primary btn-lg" href="document/file/machinelearning/models.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a class="btn btn-primary btn-lg" href="document/file/machinelearning/projects.html" role="button">&nbsp;&nbsp;Projects &nbsp;&raquo;&nbsp;&nbsp;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
 
 
     <hr class="featurette-divider">
-  </div>
+  </div><!-- /.container -->
+
+
   <!-- FOOTER -->
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
       <p>&copy; <a href="#">Jinpeng Yang</a> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer> 
- </main>  
+    </footer>
+  </main>  
 
-    <script src="../../../js/custom.js"></script>
-    <script src="../../../js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
-
-
  
