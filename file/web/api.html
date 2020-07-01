@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)file:///C:/Users/Fred/Desktop/Document/Githubs/homePage/document/file/web/APIs.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Jinpeng Yang</title>
+    
+    <link href="./api_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./api_files/custom.css" rel="stylesheet">
+    <link href="./api_files/carousel.css" rel="stylesheet">
+
+    <style type="text/css">
+      h2{
+        color: #000;
+      }
+    </style>
+  </head>
+      
+<body style="
+    margin-top: -103px;
+">
+  <!-- <header>
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+        <div class='container'>
+       <nav aria-label="breadcrumb" style="margin-top:16px; margin-left:18px;">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">APIs</li>
+            </ol>
+          </nav>
+          <h1 class="navbar-nav"  style='font-weight: 600; color: red' >Jinpeng's Portfolio</h1>
+            <ul class="navbar-nav navbar-right" style="height: 80px;">
+          
+            <li class="nav-item active">
+              <a class="nav-link" href="https://www.linkedin.com/in/jinpengyang/">
+                <figure class="figure text-center">
+                  <img class="figure-img img-responsive img-rounded w-50" src="../../image/linkedin.svg" alt="">
+                  <figcaption class='figure-caption' style="color:#fff;"><span>LinkedIn</span></figcaption>
+                </figure>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://github.com/FredYang201?tab=repositories">
+                <figure class="figure text-center">
+                  <img class="figure-img img-responsive img-rounded w-50" src="../../image/github.svg" alt="">
+                  <figcaption class='figure-caption' style="color:#fff;"><span>Github</span></figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header> -->
+
+<main role="main">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    </div>
+
+  <div class="container" style="padding-top: 40px; padding-left: 30px">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-5">
+          <h2>Snippets</h2>
+          <p style="font-weight: 700;">The snippets api has: <span style="color:red;">id</span>, <span style="color:red;">title</span>, <span style="color:red;">code</span>, <span style="color:red;">language</span> and <span style="color:red;">style</span> items in each record. It also supports <span style="color:red;">.json</span> or <span style="color:red;">.api</span> format as its suffix_patterns. The permission here has IsAuthenticatedOrReadOnly, which means only admin can edit online. The feasible queries contain <a href="http://fredsnippet.herokuapp.com/snippets/">/snippets/</a>, <a href="http://fredsnippet.herokuapp.com/snippets/.json">/sinppets/.json</a>, <a href="http://fredsnippet.herokuapp.com/snippets/?page=3">/snippets/?page=3</a>, <a href="http://fredsnippet.herokuapp.com/snippets/38/">/snippets/id/</a> and so on.</p>
+          <p><a class="btn btn-primary" href="http://fredsnippet.herokuapp.com/snippets/" role="button">Enter in &nbsp;»</a></p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <h2>Imdb movies</h2>
+          <p style="font-weight: 700;">This api provides access to the top 250 movies in IMDB. Each record consists of <span style="color:red;">id</span>, <span style="color:red;">movieId</span>, <span style="color:red;">movie name</span>, <span style="color:red;">release year</span>, <span style="color:red;">rate</span>, and <span style="color:red;">link</span> to the page of movies. It also supports <span style="color:red;">.json</span> or <span style="color:red;">.api</span> format as its suffix_patterns. The feasible queries contain <a href="http://fredimdb.herokuapp.com/movies/">/movies/</a>, <a href="http://fredimdb.herokuapp.com/movies/.json">/moives/.json</a>, <a href="http://fredimdb.herokuapp.com/movies/?page=3">/movies/?page=3</a>, <a href="http://fredimdb.herokuapp.com/movies/detail/17925/">/movies/detail/movieId/</a> and so on.</p>
+          <p><a class="btn btn-primary" href="https://fredimdb.herokuapp.com/movies/" role="button">Enter in &nbsp;»</a></p>
+       </div>
+    </div>
+  <div class="row"><br><br></div>
+  <div class="row">
+    <div class="col-md-5">
+      <h2>NBA players</h2>
+      <p style="font-weight: 700;">The nba players api has: <span style="color:red;">id</span>, <span style="color:red;">playerName</span>, <span style="color:red;">playerNumber</span>, <span style="color:red;">team</span>, <span style="color:red;">height</span>, <span style="color:red;">weight</span>, <span style="color:red;">birthday</span>, <span style="color:red;">age</span>, <span style="color:red;">years in nba</span>, <span style="color:red;">basketball position</span>, <span style="color:red;">link</span> items in each record. It supports <span style="color:red;">.json</span> or <span style="color:red;">.api</span> format as its suffix_patterns. The feasible queries contain <a href="http://frednba.herokuapp.com/nba/">/nba/</a>, <a href="http://frednba.herokuapp.com/nba/.json">/nba/.json</a>, <a href="http://frednba.herokuapp.com/nba/?page=3">/nba/?page=3</a>, <a href="http://frednba.herokuapp.com/nba/age/24/">/nba/age/24/</a>, <a href="http://frednba.herokuapp.com/nba/year_in_nba/3/">/nba/year_in_nba/3/</a>, <a href="http://frednba.herokuapp.com/nba/position/Guard/">/nba/position/Guard/</a>, <a href="http://frednba.herokuapp.com/nba/team/Utah%20Jazz/">/nba/team/Utah Jazz/</a> and so on.</p>
+      <p><a class="btn btn-primary" href="http://frednba.herokuapp.com/nba/" role="button">Enter in &nbsp;»</a></p>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-5">
+      <h2>Countries</h2>
+      <p style="font-weight: 700;">The countries api has: <span style="color:red;">id</span>, <span style="color:red;">country name</span>, <span style="color:red;">capital of country</span>, <span style="color:red;">populations</span>, <span style="color:red;">area</span>, <span style="color:red;">continent</span>, <span style="color:red;">currency</span>, <span style="color:red;">phone prefix</span> items in each record. It supports <span style="color:red;">.json</span> or <span style="color:red;">.api</span> format as its suffix_patterns. The feasible queries contain <a href="https://fredcountry.herokuapp.com/country/">/country/</a>, <a href="https://fredcountry.herokuapp.com/country/?format=json">/country/?format=json</a>, <a href="https://fredcountry.herokuapp.com/country/?page=3">/country/?page=3</a>, <a href="https://fredcountry.herokuapp.com/country/24/">/country/id/</a>, <a href="https://fredcountry.herokuapp.com/country/name/Argentina">/country/name/</a>, <a href="https://fredcountry.herokuapp.com/country/capital/Buenos%20Aires">/country/capital/</a>, <a href="https://fredcountry.herokuapp.com/country/currency/Peso">/country/currency/</a>, <a href="https://fredcountry.herokuapp.com/country/continent/AS/">/country/continent/</a> and so on.</p>
+      <p><a class="btn btn-primary" href="https://fredcountry.herokuapp.com/country/" role="button">Enter in &nbsp;»</a></p>
+    </div>
+  </div>
+  <div class="row"><br><br></div>
+  </div>
+    <hr class="featurette-divider">
+  
+  <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="file:///C:/Users/Fred/Desktop/Document/Githubs/homePage/document/file/web/APIs.html#">Back to top</a></p>
+      <p>© <a href="file:///C:/Users/Fred/Desktop/Document/Githubs/homePage/document/file/web/APIs.html#">Jinpeng Yang</a> · <a href="file:///C:/Users/Fred/Desktop/Document/Githubs/homePage/document/file/web/APIs.html#">Privacy</a> · <a href="file:///C:/Users/Fred/Desktop/Document/Githubs/homePage/document/file/web/APIs.html#">Terms</a></p>
+    </footer> 
+ </main>  
+
+    <script src="./api_files/custom.js.下载"></script>
+    <script src="./api_files/bootstrap.bundle.min.js.下载"></script>
+  
+
+
+
+
+ </body></html>

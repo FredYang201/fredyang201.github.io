@@ -1,131 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jinpeng Yang</title>
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
-
-    <style type="text/css">
-      h2{
-        color: #000;
-      }
-      span{
-        color: red;
-      }
-    </style>
-  </head>
-      
-  <body>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-theme.min.css">
+    <link rel="stylesheet" href="carousel.css"> -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
-        <div class='container'>
-<!--           <a class="navbar-brand" href="#" style="font-size: 40px; margin-left: 20px">Jinpeng Yang</a>
- -->          <nav aria-label="breadcrumb"  style="margin-top:16px; margin-left:18px;">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="page">Home</li>
-            </ol>
-          </nav>
-          <h1 class="navbar-nav"  style='font-weight: 600; color: red' >Jinpeng's Portfolio</h1>
-            <ul class="navbar-nav navbar-right" style="height: 80px;">
-            <!-- <li class="nav-item active">
-              <a class="nav-link" href="document/file/software_resume.pdf">
-                <figure class="figure text-center">
-                  <img class="figure-img img-rounded w-50" src="document/image/resume.svg" alt=""><figcaption class='figure-caption'><span style="color:#fff;">Resume</span></figcaption>
-                </figure>
-              </a>
-            </li> -->
-            <li class="nav-item active">
-              <a class="nav-link" href="https://www.linkedin.com/in/jinpengyang/">
-                <figure class="figure text-center">
-                  <img class="figure-img img-responsive img-rounded w-50" src="document/image/linkedin.svg" alt="">
-                  <figcaption class='figure-caption'><span style="color:#fff;">LinkedIn</span></figcaption>
-                </figure>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="https://github.com/FredYang201?tab=repositories">
-                <figure class="figure text-center">
-                  <img class="figure-img img-responsive img-rounded w-50" src="document/image/github.svg" alt="">
-                  <figcaption class='figure-caption'><span style="color:#fff;">Github</span></figcaption>
-                </figure>
-              </a>
-            </li>
-          </ul>
+        <!-- <div class="menu-toggler">
+            <div class="bar half satrt">
+            </div>
+            <div class="bar">
+            </div>
+            <div class="bar half end">
+            </div>
+        </div> -->
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <!-- <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li> -->
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Jinpeng Yang</h1>
+            <h6>Full Stack Engineer | Data Scientist | CFA, FRM</h6>
         </div>
-      </nav>
     </header>
 
-  <main role="main">
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    </div>
-
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing" style="padding-top: 40px;">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img src="document/image/API.svg" alt="">
-          <h2 style="padding-top:15px;">Web Development</h2>
-          <p class='text-justify' style='font-weight: 600;'>Web development includes designs of <span>websites</span> and <span>Restful APIs</span>. The programming language for backend are <span>Python</span> and <span>Django</span>. Database includes <span>MySQL</span> and <span>MongoDB</span>. Frontend framework are <span>React</span>, <span>jQuery</span>, <span>Vue.js</span> and <span>Bootstrap</span>. <span>Heroku</span>, <span>Webpack</span> and <span>Git</span> are the tools for deploying projects online.</p>
-          <p class="text-center"><a class="btn btn-primary btn-lg" href="document/file/web/Django.html" role="button">&nbsp;&nbsp;&nbsp;Django &nbsp;&raquo;&nbsp;&nbsp;</a>
-            <a class="btn btn-primary btn-lg" href="document/file/web/APIs.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;APIs &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-          </p>
-          <p><a class="btn btn-primary btn-lg" href="document/file/web/React.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;React &nbsp;&raquo;&nbsp;&nbsp;</a>
-            <a class="btn btn-primary btn-lg" href="document/file/web/Vue.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vue &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
-
-            <p><a class="btn btn-primary btn-lg" href="document/file/web/jQuery.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jQuery &nbsp;&raquo;&nbsp;&nbsp;</a>
-
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="document/image/data.svg" alt="" width="140px" height="140px">
-          <h2 style="padding-top:5px;">Data Analysis</h2>
-          <p class='text-justify' style='font-weight: 600;'>Data Analysis consists of <span>Python</span>, <span>R</span>, <span>SQL</span> and <span>A/B test</span>. Python packages include <span>Numpy</span>, <span>Pandas</span>, <span>Matplotlib</span>, <span>Seaborn</span> and <span>scikit-learn</span>. R packages include <span>ggplot2</span>, <span>dpyr</span> and so on. SQL consists of <span>table-creating</span>, <span>queries</span>, <span>table-joining</span>. A/B test include <span>simple random sample</span>, <span>statistical testing</span> and <span>p-value</span> calculation.</p>
-          <p><a class="btn btn-primary btn-lg" href="document/file/data/python.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;Python &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a class="btn btn-primary btn-lg" href="document/file/data/R.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-          </p><p>
-            <a class="btn btn-primary btn-lg" href="document/file/data/SQL.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SQL &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a class="btn btn-primary btn-lg" href="document/file/data/AB.html" role="button">&nbsp;&nbsp;A/B Test &nbsp;&raquo;&nbsp;&nbsp;</a>
-            
-          </p>
-          <p>
-            <a class="btn btn-primary btn-lg" href="https://fredyang.shinyapps.io/text_analysis/" role="button">&nbsp;&nbsp;R Shiny &nbsp;&raquo;&nbsp;&nbsp;</a>
-          </p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="document/image/ml.svg" alt="" >
-          <h2 style="padding-top:2px;">Machine Learning</h2>
-          <p class='text-justify' style='font-weight: 600;'>In machine learning, the first part are the algorithms and code of widely-used <span>supervised</span> and <span>unsupervised</span> models, such as <span>linear regression</span>, <span>logistic regression</span> and <span>support vector machine</span>. The second part are machine learning projects. <span>R</span> and <span>Python</span> are the main programming language, <span>scikit-learn</span> and <span>tensorflow</span> are main packages for projects.</p>
-          <p><a class="btn btn-primary btn-lg" href="document/file/machinelearning/models.html" role="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models &nbsp;&raquo;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-          <a class="btn btn-primary btn-lg" href="document/file/machinelearning/projects.html" role="button">&nbsp;&nbsp;Projects &nbsp;&raquo;&nbsp;&nbsp;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+    <section class="about" id="about">
+        <div class="section-heading" style="margin-bottom: 6rem;">
+            <h1>About</h1>
+            <h6>Me</h6>
+        </div>
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="200">
+                <!-- <img style="height:100%; width: 50%; margin-left: 156px;"src="images/YangJinpeng.jpg" alt=""> -->
+                <img src="images/JPY.png" alt="">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="400">
+                <div class="about-heading">
+                    <!-- <h1>About</h1> -->
+                    <!-- <h6>Myself</h6> -->
+                </div>
+                <p>I am a Data Scientist with a background in Applied Physics, Business Analytics, Full Stack Developer. I am passionate about solving business problems using Data and Technology. I have 1+ years of experience in data scientist and currently seeking full-time Data Scientist, Data Engineer, Machine Learning Engineer, Software Engineer opportunities.
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list" style="text-align:center">
+                        <li>
+                            <a href="https://www.linkedin.com/in/jinpengyang/" class="icon-link">
+                                <i class="fab fa-linkedin-in"></i>
+                                <p>LinkedIn</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/FredYang201?" class="icon-link">
+                                <i class="fab fa-github"></i>
+                                <p>Github</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="200">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>Web development includes designs of websites and Restful APIs. The programming language for backend are Python and Django. Database includes MySQL and MongoDB. Frontend framework are React, jQuery, Vue.js and Bootstrap. Heroku, Webpack and Git are the tools for deploying projects online.</p>
+                    <a href="./file/web/Django.html" class="cta">View Django projects</a>
+                    <a href="./file/web/react.html" class="cta">View React projects</a>                  
+                    <a href="./file/web/api.html" class="cta">View APIs</a>
 
-    <hr class="featurette-divider">
-  </div><!-- /.container -->
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="400">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Data Science</h1>
+                    <p>Data Analysis consists of Python, R, SQL and A/B test. Python packages include Numpy, Pandas, Matplotlib, Seaborn and scikit-learn. R packages include ggplot2, dpyr and so on. SQL consists of table-creating, queries, table-joining. A/B test include simple random sample, statistical testing and p-value calculation.</p>
+                    <a href="./file/data/python.html" class="cta">View Python projects</a>
+                    <a href="./file/data/R.html" class="cta">View R Projects</a>                  
+                    <a href="./file/data/AB.html" class="cta">View A/B Testing</a>
+
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h1>Machine Learning</h1>
+                    <p>In machine learning, the first part are the algorithms and code of widely-used supervised and unsupervised models, such as linear regression, logistic regression and support vector machine. The second part are machine learning projects. R and Python are the main programming language, scikit-learn and tensorflow are main packages for projects.</p>
+                    <a href="./file/machinelearning/models.html" class="cta">View Models</a>                  
+                    <a href="./file/machinelearning/projects.html" class="cta">View Projects</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-  <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; <a href="#">Jinpeng Yang</a> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+                    <img src="images/blog.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+                    <h6>Web Development</h6>
+                    <h1>Personal Blog</h1>
+                    <p>Personal blog is a Django-based platform, which is used for sharing latest sports news. Visitors can add comments on each blog and also can share it to friends by email. For each blog, there are many similar blogs by recommendation algorithm listed on the blog page. In addition, the website contains tags for blogs and users can search blogs with the same tags.</p>
+                    <a href="http://fredblog.herokuapp.com/blog/" class="cta">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="600">
+                    <h6>Web Development</h6>
+                    <h1>Weather Forecast</h1>
+                    <p>This is a Django-based weather forecast application, integrated with Boostrap for css and React.js for frontend design. The home page shows the weather in New York, London, Tokyo and Beijing. After entering the cities in input field, website will list the weather of following seven days. If users input a city that doesn't exist, website will ask users to input again.</p>
+                    <a href="http://fredweather.herokuapp.com/" class="cta">View Details</a>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="800">
+                    <img src="images/weather.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="images/cookbook.jpg" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1200">
+                    <h6>Web Development</h6>
+                    <h1>Cookbook Website</h1>
+                    <p>Cookbook is a mean ingredients enquiry website and wrote in JavaScript and React.js. Collecting JSON format data from "edamam/recipe/" api and parsing it into Object by JSON and "fetch" library. Cookbook supports "search" function, and after users enter the meal they want to know, website accesses the api again with the parameters and shows result to users.</p>
+                    <a href="https://react-menu-ingredient.netlify.com/" class="cta">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading" style="margin-bottom: 6rem;">
+                <h1>Work Experience</h1>
+                <h6>Past and current jobs</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300" style="margin-left:86px;padding-left:35px;">
+                <ul>
+                    <li class="date" data-date="May, 2020 - Present" style="height: 26rem;">
+                        <div class="experience-item">
+                            <h1 class="title">Full Stack developer and Lead Data Engineer</h1>
+                            <h1 class="employee">MOPO LIFE, Inc.</h1>
+                        </div>
+                        <!-- <h1>MOPO LIFE, Inc.</h1> -->
+                        <p>•	Lead a team of 4 data engineers, building scraping template for retrieving park data from website and APIs. Created an ETL pipeline for data cleaning, then applied NLP algorithm to analyze the data and provide users with better recommendation.</p>
+                        <p>•	Worked with engineer team to design database Schema and ERD for backend. Built and monitored Restful APIs and microservices architecture in Node.js and Express.js.</p>
+                        <p>•	Developed React-based travelling application on frontend which fetched real-time data from backend APIs and database in axios.js. Deployed application and APIs integrated Lambda, Elastic Beanstalk and RDS on Amazon Web Services (AWS) and Github.</p>
+                    </li>
+                    <li class="date" data-date="May, 2019 - Aug, 2019">
+                        <!-- <h1>BLDUP Inc.</h1>
+                         -->
+                         <div class="experience-item">
+                            <h1 class="title">Data Scraper and Investment Analyst</h1>
+                            <h1 class="employee">BLDUP, Inc.</h1>
+                         </div>
+                        <p>•	Increased data-collection efficiency by 60% by writing Python scripts to collect project data on websites and APIs of top 300 architecture companies. Wrote SQL to help data department to store and update records in database.</p>
+                        <p>•	Communicated and Assisted financial team to estimate and model the costs, profits and risks of construction projects. Built K-means clustering model and Tableau dashboard to provide managers with investment decisions resulting in 15% reduction in costs.</p>
+                    </li>
+                    <li class="date" data-date="Mar, 2017 - Sep, 2017" style="height:28rem;">
+                        <!-- <h1>Southwestern Institute of Physics</h1> -->
+                        <div class="experience-item">
+                            <h1 class="title">Experimental Data Scientist</h1>
+                            <h1 class="employee">Southwestern Institute of Physics</h1>
+                        </div>
+                        <p>•	Conducted daily sampling inspection of raw materials and finished products to verify the conformity of products. Assist in recording, collating, documenting experimental data and checking to ensure accurate and reliable test results.</p>
+                        <p>•	Set experimental group and comparison group during practical experimental process, then made A/B Testing and contrast research of parameters between these groups.</p>
+                        <p>•	Utilized R, Python for data cleaning and created impactful dashboards in Excel for reporting experiment performance to professors. Improved experimental accuracy rate by 10% by applying Linear regression model in Excel to forecast experiment parameters.</p>
+                    </li>
+                    <li class="date" data-date="Jul, 2016 - Sep, 2016">
+                        <!-- <h1>China Daily</h1> -->
+                        <div class="experience-item">
+                            <h1 class="title">Data Scientist</h1>
+                            <h1 class="employee">China Daily</h1>
+                        </div>
+                        
+
+
+                        <p>•	Scraped unstructured news data from related websites to ensure data integrity and accuracy by using Python. Communicated and collaborated with data department to track and record daily sales data from channels. Designed table schema and entity relationship diagram for database-building and stored data into database by writing SQL.</p>
+                        <p>•	Conducted data cleaning and visualization in Excel to build an efficient revenue KPI to monitor and analyze sales revenue. Built multiple linear regression models to predict sales revenue trends and result in 10% cost savings for next month and created dashboard in Excel to provide business insights for increasing profits.</p>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </section>
+
+    <!-- <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action="" data-aos="fade-up" data-aos-delay="200">
+                <label for="name">Name: </label>
+                <input type="text" id="name" plachholder="Enter your name..." required>
+                <label for="email">Email: </label>
+                <input type="email" id="email" plachholder="Enter your email..." required>
+                <label for="service">Services: </label>
+                <select name="service" id="service">
+                    <option value="">Web Design</option>
+                    <option value="">Web Development</option>
+                    <option value="">Web Design/Development</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section> -->
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2020 Jinpeng Yang</p>
     </footer>
-  </main>  
 
 
-    <script src="js/custom.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
